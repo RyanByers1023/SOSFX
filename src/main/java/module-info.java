@@ -9,4 +9,5 @@ module com.example.sosfx {
 
     opens com.example.sosfx to javafx.fxml;
     exports com.example.sosfx;
+    exports com.ryanbyers.sosfx to javafx.graphics;
 }
