@@ -11,3 +11,4 @@ module com.example.sosfx {
     exports com.example.sosfx;
     exports com.ryanbyers.sosfx to javafx.graphics;
 }
+

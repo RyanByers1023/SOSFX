@@ -8,20 +8,20 @@ import javafx.scene.layout.*;
 import javafx.scene.shape.Line;
 import javafx.stage.Stage;
 
-public class SOSFXApp extends Application  {
+public class FXGUITest extends Application  {
 
     @Override
     public void start(Stage primaryStage) {
 
         //Create a label
-        Label label = new Label("Welcome to the SOS Game!");
+        Label label = new Label("Example text");
 
         //draw some lines
         Line line1 = new Line(50, 50, 200, 50);
         Line line2 = new Line(50, 100, 200, 100);
 
         //create a checkbox
-        CheckBox checkBox = new CheckBox("Enable SOS Feature");
+        CheckBox checkBox = new CheckBox("Click me!");
 
         //create some radio buttons
         RadioButton option1 = new RadioButton("Option 1");
@@ -43,7 +43,7 @@ public class SOSFXApp extends Application  {
         Scene scene = new Scene(layout, 400, 300);
 
         //set stage
-        primaryStage.setTitle("SOS Game");
+        primaryStage.setTitle("SOS");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
